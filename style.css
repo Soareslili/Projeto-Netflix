@@ -111,3 +111,40 @@ video {
   width: 60%;
   color: white;
 }
+
+
+@media (max-width:800px){
+  video {
+    position: fixed;
+    width: 100vw;
+    height: 50px;
+    bottom: 30%;
+  }
+
+  .capa {
+    position: fixed;
+    top: 43%;
+   bottom: 20%;
+   left: 5%;
+   width: 90%;
+  }
+  .text {
+    font-size: 50px;
+  }
+
+  .text-conteudo {
+    display: none;
+  }
+
+  .assistir, .infor {
+    padding: 8px 15px;
+    font-size: 18px;
+  }
+
+  #carouselExampleControls {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top:60%;
+  }
+}
